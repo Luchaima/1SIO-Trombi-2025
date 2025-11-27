@@ -1,7 +1,13 @@
-#GUERIPEL{
-    background-color: brown;
-    }
 
-#GUERIPEL p {
-    color: aquamarine;
-    }
+
+#GUERIPEL {
+    background-color: blanchedalmond;
+    color: blue;
+    img {
+  transition: transform 0.6s ease;
+}
+
+img:hover {
+  transform: rotate(360deg);
+}
+}
